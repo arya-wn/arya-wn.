@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vynaa Valerie | Always happy</title>
+    <meta id="meta-title" name="title" content="Nama Anda || Bio">
+    <meta id="meta-description" name="description" content="Deskripsi singkat tentang Anda">
+    <meta id="meta-keywords" name="keywords" content="nama, bio, profil, siapa nama?">
+    <meta id="meta-robots" name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="author" content="Nama Anda">
+
+    <!-- CSS untuk tampilan halaman -->
+    <style>
+        /* Reset CSS */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden; /* Menyembunyikan scrollbar */
+            position: relative;
+        }
+
+        .video-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            object-fit: cover; /* Memastikan video sesuai dengan ukuran kontainer */
+            z-index: -1; /* Memastikan video berada di belakang konten */
+        }
+
+        .container {
+            width: 320px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Transparansi untuk melihat video di belakang */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            z-index: 1; /* Memastikan konten berada di atas video */
+        }
+
+        .image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        h1, .occupation, .location {
+            color: #333333;
+        }
+
+        .verified-icon {
+            color: green; /* warna centang hijau */
+            margin-left: 5px; /* jarak antara ikon dan teks */
+            font-size: 1.2em; /* ukuran ikon */
+        }
+
+        .verified {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+
+        .verified .name {
+            margin-left: 5px;
+            font-size: 18px;
+            display: inline-block;
+        }
+
+        .verified .checkmark {
+            width: 20px;
+            height: 20px;
+            background-color: #25D366; /* WhatsApp green color */
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .verified .checkmark::before {
+            content: '';
+            width: 10px;
+            height: 5px;
+            border: solid white;
+            border-width: 0 0 2px 2px;
+            transform: rotate(-45deg);
+            display: block;
+        }
+
+        .social-links {
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            display: inline-block;
+            text-decoration: none;
+            color: #007bff;
+            border: 1px solid #007bff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .social-links a:hover {
+            background-color: #007bff;
+            color: #ffffff;
+        }
+
+        .location {
+            margin-top: 10px;
+            color: #777;
+        }
+
+        .copyright {
+            position: absolute;
+            bottom: 20px;
+            width: 100%;
+            text-align: center;
+            font-size: 12px;
+            color: #777;
+            z-index: 1; /* Memastikan teks berada di atas video */
+        }
+    </style>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-5GJoKdQpF1WBMdw0fi4CsJrDjH3mIuBNeA6x6qDfSF6T8IZeO7pNhjPso6gqUzYgT/xT4u2Wuc7+m9QlGvS6Cw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- JavaScript untuk menyisipkan konten HTML -->
+    <script>
+        document.body.innerHTML = `
+            <!-- Video Background -->
+            <video autoplay muted loop class="video-background">
+                <source src="media/background.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <div class="container shadow">
+                <img class="image" id="profile-image" src="media/profile.jpg" alt="Foto Profil Anda">
+                <div class="verified">
+                    <h1 class="name" id="name">Vynaa Valerie <i class="fas fa-check-circle verified-icon"></i></h1>
+                </div>
+                <p class="occupation" id="occupation">Creator & Developer</p>
+                <hr>
+                <div class="social-links" id="social-links">
+                    <!-- Link-link sosial akan disisipkan di sini oleh JavaScript -->
+                </div>
+                <hr>
+                <p class="location" id="location"><i class="fa fa-map-marker icon" aria-hidden="true"></i> Pekanbaru, Riau, Indonesia</p>
+            </div>
+
+            <div class="copyright">
+                © Copyrighted Vynaa Valerie
+            </div>
+        `;
+    </script>
+
+    <!-- JavaScript eksternal -->
+    <script src="vynaa.js"></script>
+</body>
+</html>
