@@ -6,8 +6,8 @@
 
 ## Developer
 
-- **Instagram**: [@vynaa_valerie](https://instagram.com/vynaa_valerie)
-- **WhatsApp**: [Message Vynaa Valerie](https://wa.me/message/2MOJNXNC45Y5E1)
+- **Instagram**: [@br_ayaa](https://instagram.com/@br_ayaa)
+- **WhatsApp**: [Message Arya Aynn](https://wa.me/6282154940346)
 
 ## Donasi
 
@@ -17,7 +17,7 @@
 
 ### Tentang Website
 
-Proyek ini adalah halaman profil untuk Vynaa Valerie, seorang pengembang dan kreator konten. Halaman ini menampilkan informasi kontak utama dan tautan donasi untuk mendukung proyek.
+Proyek ini adalah halaman profil untuk Arya Aynn, seorang pengembang dan kreator konten. Halaman ini menampilkan informasi kontak utama dan tautan donasi untuk mendukung proyek.
 
 ### Cara Setting
 
@@ -28,4 +28,4 @@ Proyek ini adalah halaman profil untuk Vynaa Valerie, seorang pengembang dan kre
 
 ### Credits
 
-© Recode by Vynaa Valerie
+© Recode by Arya Aynn
