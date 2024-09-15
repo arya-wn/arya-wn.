@@ -1,21 +1,21 @@
 // Objek untuk menyimpan pengaturan
 const settings = {
-    title: "Vynaa Valerie | Always happy",
-    metaTitle: "Vynaa Valerie|| Always happy",
-    metaDescription: "Developer & Creator",
-    metaKeywords: "Vynaa, profil, siapa Vynaa?",
+    title: "Arya Aynn | Good Job",
+    metaTitle: "Arya Aynn|| Good Job",
+    metaDescription: "Business & Creator",
+    metaKeywords: "Arya, profil, siapa Aynn?",
     metaRobots: "index, follow",
-    profileImage: "media/profile.jpg",
-    name: "Vynaa Valerie ",
-    occupation: "Creator & Developer",
-    location: "📍 Pekanbaru, Riau, Indonesia",
+    profileImage: "profile.jpg",
+    name: "Arya Aynn ",
+    occupation: "Creator & Business",
+    location: "📍 Kalimantan Utara, Indonesia",
     socialLinks: [
-        { name: "Instagram", url: "https://instagram.com/vynaa_valerie" },
-        { name: "WhatsApp", url: "https://wa.me/message/2MOJNXNC45Y5E1" },
-        { name: "YouTube", url: "https://youtube.com/@VynaaChan" },
+        { name: "Instagram", url: "https://instagram.com/br_ayaa" },
+        { name: "WhatsApp", url: "https://wa.me/6282154940346" },
+        { name: "YouTube", url: "https://youtube.com/@MeAyaa" },
         { name: "Facebook", url: "https://facebook.com/your-facebook" },
-        { name: "Donasi", url: "https://saweria.co/vynaabot" },
-        { name: "Github", url: "https://github.com/VynaaValerie" }
+        { name: "Donasi", url: "https://saweria.co/aryawid },
+        { name: "Github", url: "https://github.com/arya-wn" }
         // Tambahkan link sosial lainnya di sini
     ]
 };
